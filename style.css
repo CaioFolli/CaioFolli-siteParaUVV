@@ -1,0 +1,174 @@
+body{ 
+   background-image: url(./img/fundo\ do\ mar.jpg);
+   background-size:cover; 
+   background-attachment: fixed;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+nav{
+    background: #222;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+    text-align:center;
+}
+nav ul {
+     list-style: none;
+     display:flex;
+     justify-content:center;
+}
+
+nav ul li {
+    margin:15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+nav ul li a:hover{
+    color: orangered;
+}
+
+#home{
+    background: url(./img/foca.jpg)/*placeholder */ center/cover no-repeat;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+#home h1{
+    font-size: 40px;
+}
+#home p{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+    max-width:400px;
+    margin:auto;
+}
+form label{
+    text-align: left;
+    margin-top:10px;
+    font-weight:bold;
+}
+form input, form textarea{
+    padding: 10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    background: black;
+    color:white;
+    padding:10px;
+    cursor:pointer;
+}
+form button:hover{
+    background:orangered;
+}
+
+img{
+    height: 50%;
+    width: 50%;
+}
+
+#baleia{
+    height: 15%;
+    width: 15%;
+}
+#foca{
+    height: 15%;
+    width: 15%;
+}
+#cavalo{
+    height: 15%;
+    width: 15%;
+}
+#polvo{
+    height: 15%;
+    width: 15%;
+}
+#tartaruga{
+    height: 15%;
+    width: 15%;
+}
+#agua-viva{
+    height: 15%;
+    width: 15%;
+}
+#tilapia{
+    height: 15%;
+    width: 15%;
+}
+#pacu{
+    height: 15%;
+    width: 15%;
+}
+#atum{
+    height: 15%;
+    width: 15%;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color:blue;
+    text-align: center;
+}
+button{
+
+    border-radius: 10px;
+    font-size: large;
+    padding: 2px;
+    padding-bottom: 20px
+}
+h2{
+    color: aliceblue;
+}
+dt{
+    font-size:x-large;
+    color: cyan;
+}
+p{
+    color: aliceblue;
+}
+
+footer{
+    background: #222;
+    color:white;
+    text-align: center;
+    padding:20px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+footer ul li{
+    margin: 15px;   
+}
+footer ul li a:hover{
+    color:orangered;
+}

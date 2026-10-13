@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pexe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<nav>
+  <!-- menu-->
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#links">Links</a></li>
+    <li><a href="#contato">Contatos</a></li>
+  </ul>
+</nav>
+
+<!--sessoes do menu-->
+<section id="home">
+  <h1>Bem vindo ao meu site</h1>
+  <p>bem vindo ao meu site sobre peixes</p>
+</section>
+
+<section id="sobre">
+  <h1>Esse site é um site sobre seres marinhos</h1>
+  <p>esse site é um site dedicado para apresentar seres mairnhos para minha audiencia.</p>
+</section>
+
+<section id="links">
+  <h1>Links sobre a vida marinha</h1>
+  <p>nesta pagina estarão guardados varios links de artigos e videos sobre a vida marinha</p>
+  <video controls width="800" height="800">
+    <!--video com captions em .vtt-->
+    <source src="./video/VIDEO_PEXES.mp4" type="video/mp4">
+    <track kind="captions" srclang="pt-br" src="./video/VIDEO PEXES.vtt" label="português">
+  </video>
+
+
+</section>
+
+<section id ="contato">
+  <h1>Entre em Contato</h1>
+  <form>
+    <!--area para colocar seus dados e enviar uma mensagem para nos-->
+   <label for="nome">Nome:</label>
+   <input type="text" id="nome" name="nome" required>
+
+    <input type="text" required 
+    placeholder="(99) 99999-9999">
+    <input type="submit" value="Enviar"
+    onclick="alert('Mensagem!');">
+    <input type="reset" value="limpar">
+
+   <label for ="email">E-mail:</label>
+   <input type="email" id="email" name="email" required>
+
+   <label for="mensagem">Mensagem:</label>
+   <textarea id="mensagem" name="mensagem" required></textarea>
+
+   <button type="submit">Enviar</button>
+  </form>
+</section>
+
+
+<!--tela de inicio-->
+   <h1>Criaturas Marinhas:</h1>
+   <h2>a beleza da natureza no fundo do mar</h2>
+    <img src="./img/pexe.jpg"></img>
+   <br> <button>
+<a href="https://www.youtube.com/watch?v=t_S_cN2re4g&pp=ygUNZGVlcCBzZWEgbGl2ZQ%3D%3D"><br>CLIQUE PARA PEIXES</a>
+</button>
+<p>A natureza é bela não importa onde no mundo.
+</p>
+
+<!--listas-->
+<h1>Lista de criaturas marinhas</h1>
+<ul>
+  <h2><li>Baleia azul</li>
+    <img id = "baleia" src="./img/baleia_azul.jpg"></img>
+  <li>Foca</li>
+  <img id ="foca" src="./img/foca.jpg"></img>
+  <li>Cavalo Mariho</li>
+  <img id = "cavalo" src="./img/cavalo-marinho.jpg"></img>
+  <li>Polvo</li>
+  <img id ="polvo" src="./img/polvo.jpg"></img>
+  <li>Tartaruga Verde</li>
+  <img id = "tartaruga" src="./img/tartaruga-verde.jpg"></img>
+  <li>Água-Viva</li>
+  <img id = "agua-viva" src="./img/agua-viva.jpg"></img>
+  <li>Tilápia</li>
+  <img id = "tilapia" src="./img/tilapia.jpg"></img>
+  <li>Pacu</li>
+  <img id = "pacu" src="./img/pacu.jpg"></img>
+  <li>Atum</li>
+  <img id = "atum" src="./img/atum.jpg"></img>
+</h2>
+
+</ul>
+<h1>Lista de tamanho medio das criaturas marinhas de maior para menor</h1>
+<ol>
+  <h2>
+    <li>Baleia Azul; 26M</li>
+    <li>foca; 1,7M</li>
+    <li>atum; 1M</li>
+    <li>polvo; 85cm</li>
+    <li>Tartaruga verde e Pacu; 50cm</li>
+    <li>Agua viva e Tilapia; 30cm</li>
+    <li>Cavalo Marinho; 15cm</li>
+  </h2>
+</ol>
+
+<h1>Quais desses animais vivem no Brasil?</h1>
+<dl>
+  <h2>
+    <dt>Baleia Azul</dt>
+    <dd>Baleias azuis existem no brasil mesmo que seja extremamente raro encontrar uma</dd>
+    <dt>foca</dt>
+    <dd>Nao, elas nao habitam nosso pais de forma natural.</dd>
+    <dt>Cavalo Marinho</dt>
+    <dd>Sim, eles vivem ao longo de quase todo o litoral brasileiro, principalmente em <br>
+      aguas calmas e rasas de manguezais, baias, recifes e bancos de algas
+    </dd>
+    <dt>Polvo</dt>
+    <dd>Sim, eles vivem ao longo de quase todo o litoral brasileiro, principalmente em <br>
+      costões rochosos e areas de recifes de coral.
+    </dd>
+    <dt>Tartaruga Verde</dt>
+    <dd>vivem por todo o litoral brasileiro e desovam principalmente em ilhas oceanicas</dd>
+    <dt>Água-viva</dt>
+    <dd>são comuns em toda costa Brasileira, especialmente durante os meses mais quentes do ano
+    </dd>
+    <dt>Tilápia</dt>
+    <dd>Sim, o país é o quarto maior produtor de tilápias no mundo</dd>
+    <dt>Pacu</dt>
+    <dd>Sim, o peixe de água doce nativo da america do sul existe no Brasil</dd>
+    <dt>Atum</dt>
+    <dd>Sim, o peixe é pescado na costa do país, especialmente na região nordeste do país</dd>
+  </h2>
+</dl>
+
+<!--aqui o usuario escolhera seu animal favorito do site-->
+<h1>
+  Selecione a criatura marinha que você mais se interessou por:
+</h1>
+
+<form>
+  <fieldset>
+    <h1>
+    <legend>selecione seu favorito</legend>
+    </h1>
+    <h2>
+    <input type="radio" name="peixe" id="baleiaAzul" value="ba">
+    <label for="baleiaAzul">Baleia Azul<br></label>
+
+    <input type="radio" name="peixe" id="foca" value="f">
+    <label for="foca">Foca<br></label>
+
+    <input type="radio" name="peixe" id="cavaloMarinho" value="cm">
+    <label for="cavaloMarinho">Cavalo Marinho<br></label>
+
+    <input type="radio" name="peixe" id="polvo" value="p">
+    <label for="polvo">Polvo<br></label>
+
+    <input type="radio" name="peixe" id="tartarugaVerde" value="tv">
+    <label for="tartarugaVerde">Tartaruga Verde<br></label>
+
+    <input type="radio" name="peixe" id="aguaViva" value="av">
+    <label for="aguaViva">Agua Viva<br></label>
+
+    <input type="radio" name="peixe" id="Tilapia" value="t">
+    <label for="tilapia">Tilapia<br></label>
+
+    <input type="radio" name="peixe" id="pacu" value="pc">
+    <label for="pacu">Pacu<br></label>
+
+    <input type="radio" name="peixe" id="atum" value="a">
+    <label for="atum">Atum<br></label>
+  
+  </fieldset>
+</form>
+</h2>
+
+<!--rodape-->
+<footer>
+  <p>Siga-nos nas redes sociais</p>
+  <ul>
+    <li><a href="https://pt.wikipedia.org/wiki/Peixe">Facebook</a></li>
+    <li><a href="https://pt.wikipedia.org/wiki/Peixe">Instagram</a></li>
+    <li><a href="https://pt.wikipedia.org/wiki/Peixe">LinkedIn</a></li>
+  </ul>
+  <p>&copy; 2026 pagina peixosa ES - Todos os peixes reservados</p>
+</footer>
+</body>
+</html>
